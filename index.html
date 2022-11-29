@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="">funcao.js</script>
+    <script src="funcao.js"></script>
     <title>Primeira Função</title>
 </head>
 <body>
     <script>
-        pri = parseInt(prompt("Digite o primeiro valor!"))
-        seg = parseInt(prompt("Digite o segundo valor!")) 
-        document.write(soma(pri,seg)) 
+        pri = parseInt(prompt("Digite o primeiro valor"))
+        sec = parseInt(prompt("Digite o segundo valor"))
+        resp = parseInt(prompt("Digite 1 para Somar \nDigite 2 para Subtrair \nDigite 3 para Multiplica \nDigite 4 para dividiir"))
+        decisao(resp, pri, seg)
     </script>
     
 </body>
